@@ -1,0 +1,3 @@
+﻿services:
+  vrcdn-bitrate-ingest:
+    image: vrcdn-bitrate-ingest
