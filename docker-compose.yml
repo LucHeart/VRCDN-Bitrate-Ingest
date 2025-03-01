@@ -1,3 +1,6 @@
 ﻿services:
   vrcdn-bitrate-ingest:
-    image: vrcdn-bitrate-ingest
+    image: ghcr.io/lucheart/vrcdn-bitrate-ingest
+    restart: unless-stopped
+    volumes:
+      - ./config.json:/app/config.json

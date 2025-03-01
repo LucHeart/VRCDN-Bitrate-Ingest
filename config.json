@@ -1,0 +1,11 @@
+﻿{
+  "streams": {
+    "streamname": "vrcdn_stream_key_goes_here"
+  },
+  "prometheus": {
+    "endpoint": "https://victoria.example.org/api/v1/import/prometheus",
+    "headers": {
+      "Authorization": "Basic base64stringgoeshere"
+    }
+  }
+}
